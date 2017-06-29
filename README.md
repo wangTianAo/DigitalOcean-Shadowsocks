@@ -29,11 +29,13 @@
 1)在root下安装shadowsocks
 
 apt-get install python-pip
+
 pip install shadowsocks
 
 在实际安装下发现很多依赖缺失，所以需要先执行一下：apt-get update。另外也有一些同学会选择CentOS的服务器，附上在CentOS下安装shadowsocks的方法：
 
 yum install python-setuptools &amp;&amp; easy_install pip
+
 pip install shadowsocks
 
 2)配置文件
@@ -56,6 +58,7 @@ ssserver -c /etc/shadowsocks.json
 
 #或者在后台运行
 ssserver -c /etc/shadowsocks.json -d start
+
 ssserver -c /etc/shadowsocks.json -d stop
 
 9在你的电脑上配置shadowsocks设置，选择启动系统代理，选择PAC模式
