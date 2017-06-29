@@ -27,6 +27,7 @@
 也可以安装别人做好的包https://teddysun.com/342.html
 
 1)在root下安装shadowsocks
+
 apt-get install python-pip
 pip install shadowsocks
 
