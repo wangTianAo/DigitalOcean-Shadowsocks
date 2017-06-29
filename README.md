@@ -50,7 +50,9 @@ pip install shadowsocks
 
 指令：vi /etc/shadowsocks.json
 
-内容如下{
+内容如下
+
+{
 
  "server":"你的服务器ip地址",
  
@@ -75,6 +77,7 @@ pip install shadowsocks
 ssserver -c /etc/shadowsocks.json
 
 #或者在后台运行
+
 ssserver -c /etc/shadowsocks.json -d start
 
 ssserver -c /etc/shadowsocks.json -d stop
