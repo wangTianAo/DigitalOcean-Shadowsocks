@@ -51,14 +51,23 @@ pip install shadowsocks
 指令：vi /etc/shadowsocks.json
 
 内容如下{
+
  "server":"你的服务器ip地址",
+ 
  "server_port":8388,
+ 
  "local_address": "127.0.0.1",
+ 
  "local_port":1080,
+ 
  "password":"你设置的密码",
+ 
  "timeout":300,
+ 
  "method":"aes-256-cfb",
+ 
  "fast_open": false
+ 
 }
 
 接下来你就可以使用下面这个指令启动服务
